@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom';
-import profilePic from '../assets/PXL_20230907_113302816.jpg'
+import profilePic from '../assets/profilePicture.jpg'
 
 const Header = () => {
     return (
         <section className="header">
-        <h1>Tom Smith - Junior Software Developer Portfolio</h1>
+        <div className='headerText'>
+        <h1>Tom Smith</h1>
+        <h2>Junior Software Developer Portfolio</h2>
+        </div>
+        <div className='imageCropper'>
         <img src={profilePic} className="profilePic" alt='Tom Smith Profile Picture'/>
-            <Link to={'/'}>
-        <button>Home</button>
-            </Link>
+        </div>
         </section>
     )
 }
