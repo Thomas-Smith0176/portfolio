@@ -3,18 +3,25 @@
   text-align: center;
 }
 
+.bg-img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -5;
+}
+
 .header {
   border: solid 1px black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .headerText {
   text-align: center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: flex;
-  gap: 10vw
+  color: white
 }
 
 .imageCropper {
@@ -28,7 +35,72 @@
   
 }
 
-.profilePic {
-  position: relative;
+.home {
+  display: flex;
 }
+
+.card {
+  height: 15vw;
+  width: 40vw;
+  display: flex;
+  background-color: #1F1A24;
+  position: absolute;
+  right: 100px;
+}
+
+.profile-pic {
+  position: relative;
+  height: 100%
+}
+
+.profile-text {
+  color: white;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 30px;
+  font-size: 0.8vw;
+}
+
+@media only screen and (max-width: 1400px){
+  .card {
+    height: 210px;
+    width: 560px;
+  }
+  .profile-text {
+    font-size: 11.2px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    display: grid;
+    grid-template-areas: 
+    "profile-pic"
+    "profile-text"
+    ;
+    width: 225px
+  }
+  .profile-pic {
+    grid-area: "profile-pic";
+    height: 225px;
+    width: 225px;
+  }
+  .profile-text {
+    grid-area: "profile-text";
+    background-color: #1F1A24;
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .card {
+    position: absolute;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+  }
+}
+
 
