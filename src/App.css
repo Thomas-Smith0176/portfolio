@@ -15,13 +15,16 @@
 }
 
 .header {
-  border: solid 1px black;
-}
-
-.headerText {
-  text-align: center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: white
+  color: white;
+  border-bottom: 1px white solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  gap: 3%;
+  font-size: 2vw;
+  padding-bottom: 2%;
+  padding-top: 2%;
 }
 
 .imageCropper {
@@ -36,16 +39,18 @@
 }
 
 .home {
-  display: flex;
+  display: grid;
+  grid-template-areas: 
+  "profile"
+  "contact";
 }
 
 .card {
+  grid-area: "profile";
   height: 15vw;
   width: 40vw;
   display: flex;
   background-color: #1F1A24;
-  position: absolute;
-  right: 100px;
 }
 
 .profile-pic {
@@ -60,6 +65,56 @@
   margin-left: 20px;
   margin-right: 30px;
   font-size: 0.8vw;
+}
+
+.contact-info {
+  grid-area: "contact";
+  color: white;
+  border: 1px solid white;
+  display: grid;
+  grid-template-areas:
+  "linkedin-icon linkedin-text"
+  "github-icon github-text"
+  "email-icon email-text"
+  "phone-icon phone-text";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.linkedin-text {
+  grid-area: "linkedin-text";
+}
+
+.linkedin-icon {
+  grid-area: "linkedin-icon";
+  height:3vw;
+}
+
+.github-text {
+  grid-area: "github-text";
+}
+
+.github-icon {
+  grid-area: "github-icon";
+  height:3vw;
+}
+
+.email-text {
+  grid-area: "email-text";
+}
+
+.email-icon {
+  grid-area: "email-icon";
+  height:3vw;
+}
+
+.phone-text {
+  grid-area: "phone-text";
+}
+
+.phone-icon {
+  grid-area: "phone-icon";
+  height:3vw;
 }
 
 @media only screen and (max-width: 1400px){
