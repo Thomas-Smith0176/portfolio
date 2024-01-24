@@ -2,9 +2,8 @@
 const Header = () => {
     return (
         <section className="header">
-        <text>Tom Smith</text>
-        <text>~</text>
-        <text>Junior Software Developer Portfolio</text>
+        <h1>Thomas Smith</h1>
+        <h2>Junior Software Developer</h2>
         </section>
     )
 }

@@ -3,6 +3,31 @@
   text-align: center;
 }
 
+body {
+  overflow: hidden;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 35vw;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #1F1A24;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+.sidebar div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+}
+h4 {
+  color: rgb(147, 147, 147);
+  font-size: 4vh;
+}
+
 .bg-img {
   width: 100%;
   height: 100%;
@@ -16,41 +41,48 @@
 
 .header {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: white;
-  border-bottom: 1px white solid;
-  margin-left: 20px;
-  margin-right: 20px;
-  display: flex;
-  gap: 3%;
-  font-size: 2vw;
+  /* display: grid;
+  grid-template-rows: 2fr 2fr 1fr 2fr; */
+  margin-left: 5vw;
   padding-bottom: 2%;
   padding-top: 2%;
 }
 
-.imageCropper {
-  border-radius: 50%;
-  overflow: hidden;
-  height: 150px;
-  width: 150px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  
+h1 {
+  /* grid-row-start: 2; */
+  font-size: 6vh;
+  text-align: left;
+  margin-bottom: 0px;
+  color: white;
 }
+
+h2 {
+  /* grid-row-start: 3; */
+  text-align: left;
+  color: rgb(147, 147, 147);
+  font-size: 4vh;
+}
+
 
 .home {
   display: grid;
-  grid-template-areas: 
-  "profile"
-  "contact";
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 30vh 30vh 40vh;
 }
 
 .card {
-  grid-area: "profile";
-  height: 15vw;
+  margin-left: 5vw;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  height: 12vw;
   width: 40vw;
+  min-height: 208px;
   display: flex;
   background-color: #1F1A24;
+}
+
+h3 {
+  font-size: 2vh;
 }
 
 .profile-pic {
@@ -62,59 +94,66 @@
   color: white;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: left;
-  margin-left: 20px;
-  margin-right: 30px;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
   font-size: 0.8vw;
 }
 
 .contact-info {
-  grid-area: "contact";
+  margin-left: 5vw;
+  grid-column-start: 1;
+  grid-row-start: 3;
   color: white;
-  border: 1px solid white;
   display: grid;
-  grid-template-areas:
-  "linkedin-icon linkedin-text"
-  "github-icon github-text"
-  "email-icon email-text"
-  "phone-icon phone-text";
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 15% 15% 15% 15% 40%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
+  align-items: center;
 }
 
 .linkedin-text {
   grid-area: "linkedin-text";
+  text-align: left;
 }
 
 .linkedin-icon {
   grid-area: "linkedin-icon";
   height:3vw;
+  max-height: 45px;
 }
 
 .github-text {
   grid-area: "github-text";
+  text-align: left;
 }
 
 .github-icon {
   grid-area: "github-icon";
   height:3vw;
+  max-height: 45px;
 }
 
 .email-text {
   grid-area: "email-text";
+  text-align: left;
 }
 
 .email-icon {
   grid-area: "email-icon";
   height:3vw;
+  max-height: 45px;
 }
 
 .phone-text {
   grid-area: "phone-text";
+  text-align: left;
 }
 
 .phone-icon {
   grid-area: "phone-icon";
   height:3vw;
+  max-height: 45px;
 }
 
 @media only screen and (max-width: 1400px){
@@ -156,6 +195,26 @@
     left: 50%; 
     transform: translate(-50%, -50%);
   }
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 30vh 30vh 40vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.project-header {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  margin-left: 5vw;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.home-button {
+  grid-column-start: 1;
+  grid-row-start: 3;
 }
 
 
