@@ -27,6 +27,17 @@ body {
   display: none;
 }
 
+.sidebar-header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+}
+
+.home-icon {
+  padding-top: 10px;
+  height: 2.5vh;
+}
+
 h4 {
   color: rgb(181, 181, 181);
   font-size: 4vh;
@@ -124,6 +135,7 @@ h5 {
 .linkedin-text {
   grid-area: "linkedin-text";
   text-align: left;
+  color: rgb(176, 176, 176);
 }
 
 .linkedin-icon {
@@ -135,6 +147,7 @@ h5 {
 .github-text {
   grid-area: "github-text";
   text-align: left;
+  color: rgb(176, 176, 176);
 }
 
 .github-icon {
@@ -146,6 +159,7 @@ h5 {
 .email-text {
   grid-area: "email-text";
   text-align: left;
+  color: rgb(176, 176, 176);
 }
 
 .email-icon {
@@ -157,6 +171,7 @@ h5 {
 .phone-text {
   grid-area: "phone-text";
   text-align: left;
+  color: rgb(176, 176, 176);
 }
 
 .phone-icon {

@@ -6,6 +6,9 @@ import Project from './Componets/Project';
 import ProjectsBar from './Componets/ProjectsBar';
 import background from './assets/dark-background.jpg'
 import { AnimatePresence } from "framer-motion";
+import RoamPage from './Componets/RoamPage';
+import DownloadPage from './Componets/DownloadPage';
+import ApiPage from './Componets/ApiPage';
 
 function App() {
   const location = useLocation();
@@ -17,7 +20,10 @@ function App() {
       <AnimatePresence>
       <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Home/>}/>
-      <Route path="/projects/:project" element={<Project/>}/>
+      <Route path="/projects/roam" element={<RoamPage/>}/>
+      <Route path="/projects/download" element={<DownloadPage/>}/>
+      <Route path="/projects/api" element={<ApiPage/>}/>
+      {/* <Route path="/projects/:project" element={<Project/>}/> */}
       </Routes>
       </AnimatePresence>
       <img src={background} className='bg-img'/>

@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import ProjectCard from "./ProjectCard";
 import roamPic from "../assets/roam-card-img.jpg"
 import downloadPic from "../assets/download-card-img.jpg"
 import apiPic from "../assets/api-card-img.jpg"
+import homeIcon from "../assets/home-icon.png"
 
 const ProjectsBar = () => {
 
@@ -33,7 +34,12 @@ const ProjectsBar = () => {
 
   return (
     <div className="sidebar">
+      <div className="sidebar-header">
+      <Link to={'/'}>
+        <img src={homeIcon} className="home-icon"/>
+      </Link>
       <h4>Personal Projects</h4>
+      </div>
       <Link to={'/projects/roam'} className="link">
         <ProjectCard project={roam}/>
       </Link>
@@ -42,9 +48,6 @@ const ProjectsBar = () => {
       </Link>
       <Link to={'/projects/api'} className="link">
         <ProjectCard project={api}/>
-      </Link>
-      <Link to={'/'}>
-        <div>Home</div>
       </Link>
     </div>
   );
