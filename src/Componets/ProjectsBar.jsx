@@ -12,7 +12,7 @@ const ProjectsBar = () => {
 
 
   return (
-    <div class="sidebar">
+    <div className="sidebar">
       <h4>Personal Projects</h4>
       <Link to={'/projects/roam'}>
         <ProjectCard project={roam}/>

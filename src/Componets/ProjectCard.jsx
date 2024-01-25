@@ -1,9 +1,10 @@
-
 const ProjectCard = ({project}) => {
     return (
         <div className="project-card">
-        <h1>{project.name}</h1>
-        <img src={project.img} alt={project.alt}/>
+        <img src={project.img} alt={project.alt} className="project-card-pic"/>
+        <div className="project-card-text">
+        <h3>{project.name}</h3>
+        </div>
         </div>
     )
 };
