@@ -1,17 +1,27 @@
 import { Link } from "react-router-dom";
+import ProjectCard from "./ProjectCard";
+import roamPic from "../assets/roam-card-img.jpg"
 
 const ProjectsBar = () => {
+
+  const roam = {
+    name: "Roam",
+    img: roamPic,
+    alt: "screenshot of roam app showing a partially uncovered map with points of interest markers"
+  }
+
+
   return (
     <div class="sidebar">
       <h4>Personal Projects</h4>
       <Link to={'/projects/roam'}>
-        <div>Roam</div>
+        <ProjectCard project={roam}/>
       </Link>
       <Link to={'/projects/download'}>
-        <div>Download News</div>
+        <ProjectCard project={'Download'}/>
       </Link>
       <Link to={'/projects/api'}>
-        <div>Express API</div>
+        <ProjectCard project={'Express API'}/>
       </Link>
       <Link to={'/'}>
         <div>Home</div>
