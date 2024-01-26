@@ -280,6 +280,20 @@ h5 {
   text-align: left;
   font-size: 2vh;
 }
+.hyperlink {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(147, 147, 147);
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+a:hover {
+  color: rgb(194, 194, 194);
+}
 
 .home-button {
   grid-column-start: 1;
@@ -289,25 +303,37 @@ h5 {
 .accordions {
   margin-top: 50px;
 }
-
 .wrapper {
   overflow: hidden;
   margin-bottom: 20px;
 }
-
 .wrapper .accordion-title-container {
   font-size: 3vh;
   font-weight: bold;
 }
-
+.wrapper .accordion-title-container:hover {
+  color: rgb(194, 194, 194);
+}
+.wrapper .accordion-title-container:focus {
+  color: rgb(194, 194, 194);
+}
 .wrapper .accordion-title {
   display: grid;
   grid-template-columns: 1fr 2fr;
 
 }
-
 .wrapper .accordion-content-container {
   padding: 0 1rem;
   transition: height .7s ease-in-out;
   font-size: 2vh;
+}
+
+.carousel {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.carousel-img {
+  max-width: 30vh;
+  min-width: 100px;
 }
