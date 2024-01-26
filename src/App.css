@@ -271,6 +271,14 @@ h5 {
   padding-top: 2%;
 }
 
+.project-body {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  margin-left: 5vw;
+  color: rgb(147, 147, 147);
+  text-align: left;
+}
+
 .home-button {
   grid-column-start: 1;
   grid-row-start: 3;
