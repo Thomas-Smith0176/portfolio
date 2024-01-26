@@ -1,5 +1,13 @@
 import { motion } from "framer-motion";
 import Accordion from "./Accordion";
+import {Carousel} from 'react-responsive-carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import roamImg1 from '../assets/roam-demo-content/demo-1.jpg'
+import roamImg2 from '../assets/roam-demo-content/demo-2.jpg'
+import roamImg3 from '../assets/roam-demo-content/demo-3.jpg'
+import roamImg4 from '../assets/roam-demo-content/demo-4.jpg'
+import roamImg5 from '../assets/roam-demo-content/demo-5.jpg'
+import roamDemo from '../assets/roam-demo-content/Roam-video-demo.mp4'
 
 const RoamPage = () => {
     return (
@@ -17,6 +25,7 @@ const RoamPage = () => {
         People don’t engage with their local areas as much as they used to. In our cities and towns, there are hundreds of hidden landmarks, buildings and monuments that enrich the cultural canvas of our communities.
 I had the pleasure of working with an amazing team of junior developers on Roam, a unique maps app designed to tackle this problem by implementing game-like features to encourage users to explore and interact with their local area. 
         </text>
+        
         <div className="accordions">
 
             <Accordion title={'App Features'} content={ 
@@ -37,6 +46,26 @@ I had the pleasure of working with an amazing team of junior developers on Roam,
             </ul>
         }/>
         </div>
+        <div className="hyperlink"><a href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo here!</a></div>
+        
+        <Carousel className="carousel" showThumbs={false} showStatus={false} width={'100%'}>
+            <div>
+                <img src={roamImg1} className="carousel-img"/>
+            </div>
+            <div>
+                <img src={roamImg2} className="carousel-img"></img>
+            </div>
+            <div>
+                <img src={roamImg3} className="carousel-img"></img>
+            </div>
+            <div>
+                <img src={roamImg4} className="carousel-img"></img>
+            </div>
+            <div>
+                <img src={roamImg5} className="carousel-img"></img>
+            </div>
+        </Carousel>
+
         </div>
         </section>
         </motion.main>
