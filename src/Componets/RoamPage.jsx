@@ -15,7 +15,7 @@ const RoamPage = () => {
         <div className="project-body">
         <text>
         People don’t engage with their local areas as much as they used to. In our cities and towns, there are hundreds of hidden landmarks, buildings and monuments that enrich the cultural canvas of our communities.
-Roam is designed to tackle this problem by implementing game-like features to encourage users to explore and interact with their local area. 
+I had the pleasure of working with an amazing team of junior developers on Roam, a unique maps app designed to tackle this problem by implementing game-like features to encourage users to explore and interact with their local area. 
         </text>
         <div className="accordions">
 
