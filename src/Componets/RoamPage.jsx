@@ -29,10 +29,11 @@ Roam is designed to tackle this problem by implementing game-like features to en
         }/>
         <Accordion title={'Tech Stack'} content={ 
             <ul>
+                <li>Firebase was used to handle the app's back-end, utilising Firestore, Authentication and Cloud Storage functions to efficiently prototype our app with scalability potential.</li>
                 <li>Front end development for Roam was acheived using React Native and Expo.</li>
                 <li>Libraries such as React Native Paper allowed us to create a polished and consistent user interface.</li>
                 <li>The Expo Camera and Expo Location libraries were instrumental in developing many functions of the app.</li>
-                <li>Firebase was used to handle the back-end, utilising Firestore, Authentication and Cloud Storage functions to efficiently prototype our app with scalability potential. </li>
+                <li>The map screen presented the biggest challenge on the project and was built using React Native Maps and the google API, using polygon components to hide and reveal areas of the map dynamically.</li>
             </ul>
         }/>
         </div>
