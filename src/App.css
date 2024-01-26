@@ -294,6 +294,9 @@ a {
 a:hover {
   color: rgb(194, 194, 194);
 }
+.apiPageLink {
+  font-size: 2vh;
+}
 
 .home-button {
   grid-column-start: 1;
