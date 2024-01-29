@@ -2,7 +2,7 @@ import './App.css'
 import Home from './Componets/Home'
 import { Routes, Route, useLocation } from 'react-router-dom';
 import ProjectsBar from './Componets/ProjectsBar';
-import background from './assets/dark-background.jpg'
+import background from './assets/dark-background.jpg';
 import { AnimatePresence } from "framer-motion";
 import RoamPage from './Componets/RoamPage';
 import DownloadPage from './Componets/DownloadPage';

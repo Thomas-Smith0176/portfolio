@@ -7,7 +7,6 @@ import downloadImg1 from "../assets/download-demo-content/demo-1.jpg";
 import downloadImg2 from "../assets/download-demo-content/demo-2.jpg";
 import downloadImg3 from "../assets/download-demo-content/demo-3.jpg";
 import downloadImg4 from "../assets/download-demo-content/demo-4.jpg";
-import downloadImg5 from "../assets/download-demo-content/demo-5.jpg";
 import downloadImg6 from "../assets/download-demo-content/demo-6.jpg";
 import downloadImg7 from "../assets/download-demo-content/demo-7.jpg";
 

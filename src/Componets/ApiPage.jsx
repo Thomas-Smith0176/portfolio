@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import Accordion from "./Accordion";
+import apiImg1 from "../assets/api-demo-content/demo-1.jpg";
+import apiImg2 from "../assets/api-demo-content/demo-2.jpg";
+import apiImg3 from "../assets/api-demo-content/demo-3.jpg";
 
 const ApiPage = () => {
     return (
@@ -15,10 +18,7 @@ const ApiPage = () => {
         </div>
         <div className="project-body">
           <text>
-            The goal of this project was to create a social media/news site with
-            functionality similar to apps such as Reddit, allowing users to vote
-            and comment on articles, as well as sorting the content they consume
-            based on their interests.
+          This project involved creating an API which processes requests to a news server containing articles, comments, and user information. This allowed me to become familiar with back-end development libraries and methodologies. 
           </text>
 
           <div className="accordions">
@@ -78,6 +78,15 @@ const ApiPage = () => {
             showStatus={false}
             width={"100%"}
           >
+            <div>
+              <img src={apiImg1} className="carousel-img-horiz" />
+            </div>
+            <div>
+              <img src={apiImg2} className="carousel-img-horiz" />
+            </div>
+            <div>
+              <img src={apiImg3} className="carousel-img-horiz" />
+            </div>
           </Carousel>
         </div>
         </section>
