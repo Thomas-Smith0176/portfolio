@@ -45,6 +45,16 @@ I had the pleasure of working with an amazing team of junior developers on Roam,
                 <li>The map screen presented the biggest challenge on the project and was built using React Native Maps and the google API, using polygon components to hide and reveal areas of the map dynamically.</li>
             </ul>
         }/>
+        <Accordion title={'Further Scope'} content={ 
+            <ul>
+                <li>User profile page displaying all uploaded photos, comments, and created landmarks.</li>
+                <li>Ability to view and follow other user's profiles from the photos and comments they leave.</li>
+                <li>Achievements system where users can earn badges for completing milestones like visting x number of landmarks, walking x distance, posting x comments etc.</li>
+                <li>Voting functionality on landmarks, comments and photos with the most upvoted photo becoming the landmark cover image.</li>
+                <li>Route planning feature using the google maps api to allow users to follow a route to far away landmarks.</li>
+                <li>Restrictions to be implemented on how often users can create landmarks to avoid spam, with heavily downvoted landmarks also being removed from the map.</li>
+            </ul>
+        }/>
         </div>
         <div className="hyperlink"><a href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo here!</a></div>
         
