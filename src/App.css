@@ -281,7 +281,7 @@ h5 {
   font-size: 2vh;
 }
 .hyperlink {
-  margin-top: 20px;
+  margin-bottom: 35px;
 }
 
 a {
@@ -339,4 +339,7 @@ a:hover {
 .carousel-img {
   max-width: 30vh;
   min-width: 100px;
+}
+.carousel-img-horiz {
+  max-width: 80vh;
 }

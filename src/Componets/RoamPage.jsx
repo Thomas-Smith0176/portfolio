@@ -18,7 +18,7 @@ const RoamPage = () => {
         <section className="project">
         <div className="project-header">
         <h1>Roam</h1>
-        <h2>Discover, Expore, Share</h2>
+        <h2>Discover, Explore, Share</h2>
         </div>
         <div className="project-body">
         <text>
