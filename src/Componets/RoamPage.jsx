@@ -32,14 +32,14 @@ I had the pleasure of working with an amazing team of junior developers on Roam,
                 <ul>
                 <li>Dynamic map screen which expands and reveals as users explore.</li>
                 <li>Custom points of interest 'landmarks' which users can create and discover.</li>
-                <li>Funcionality for users to upload photos and post comments on existing landmarks.</li>
+                <li>Functionality for users to upload photos and post comments on existing landmarks.</li>
                 <li>Landmarks restrict interaction if users are not within a certain distance, encouraging exploration.</li>
             </ul>
         }/>
         <Accordion title={'Tech Stack'} content={ 
             <ul>
                 <li>Firebase was used to handle the app's back-end, utilising Firestore, Authentication and Cloud Storage functions to efficiently prototype our app with scalability potential.</li>
-                <li>Front end development for Roam was acheived using React Native and Expo.</li>
+                <li>Front end development for Roam was achieved using React Native and Expo.</li>
                 <li>Libraries such as React Native Paper allowed us to create a polished and consistent user interface.</li>
                 <li>The Expo Camera and Expo Location libraries were instrumental in developing many functions of the app.</li>
                 <li>The map screen presented the biggest challenge on the project and was built using React Native Maps and the google API, using polygon components to hide and reveal areas of the map dynamically.</li>
@@ -49,14 +49,14 @@ I had the pleasure of working with an amazing team of junior developers on Roam,
             <ul>
                 <li>User profile page displaying all uploaded photos, comments, and created landmarks.</li>
                 <li>Ability to view and follow other user's profiles from the photos and comments they leave.</li>
-                <li>Achievements system where users can earn badges for completing milestones like visting x number of landmarks, walking x distance, posting x comments etc.</li>
-                <li>Voting functionality on landmarks, comments and photos with the most upvoted photo becoming the landmark cover image.</li>
-                <li>Route planning feature using the google maps api to allow users to follow a route to far away landmarks.</li>
+                <li>Achievements system where users can earn badges for completing milestones like visiting x number of landmarks, walking x distance, posting x comments etc.</li>
+                <li>Voting functionality on landmarks, comments, and photos with the most upvoted photo becoming the landmark cover image.</li>
+                <li>Route planning feature using the google maps API to allow users to follow a route to far away landmarks.</li>
                 <li>Restrictions to be implemented on how often users can create landmarks to avoid spam, with heavily downvoted landmarks also being removed from the map.</li>
             </ul>
         }/>
         </div>
-        <div className="hyperlink"><a href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo here!</a></div>
+        <div className="hyperlink"><a href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo</a></div>
         
         <Carousel className="carousel" showThumbs={false} showStatus={false} width={'100%'}>
             <div>

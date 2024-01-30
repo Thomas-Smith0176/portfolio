@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Accordion from "./Accordion";
-import { Link } from "react-router-dom";
 import downloadImg1 from "../assets/download-demo-content/demo-1.jpg";
 import downloadImg2 from "../assets/download-demo-content/demo-2.jpg";
 import downloadImg3 from "../assets/download-demo-content/demo-3.jpg";
@@ -77,7 +76,7 @@ const DownloadPage = () => {
               href="https://github.com/Thomas-Smith0176/download-news"
               target="_blank"
             >
-              Check out the repo here
+              Check out the repo
             </a>
           </div>
           <div className="hyperlink">

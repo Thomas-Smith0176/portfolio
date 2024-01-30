@@ -12,7 +12,7 @@ const ProjectsBar = () => {
     subtitle: "Discover, Explore, Share",
     img: roamPic,
     alt: "screenshot of roam app showing a partially uncovered map with points of interest markers",
-    blurb: "Roam is a unique maps app designed to enourage users to explore and engade with their local area by implementing game-like features."
+    blurb: "Roam is a unique maps app designed to encourage users to explore and engage with their local area by implementing game-like features."
   }
 
   const download = {
@@ -28,7 +28,7 @@ const ProjectsBar = () => {
     subtitle: 'Fully developed back-end service',
     img: apiPic,
     alt: "screenshot showing api endpoints and their example responses",
-    blurb: "Built using Express and the MVC design pattern, this API is designed to handle requests to a large news database."
+    blurb: "An API built using Express and the MVC design pattern, designed to handle requests to a large news database."
   }
 
 

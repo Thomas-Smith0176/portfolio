@@ -46,10 +46,10 @@ const ApiPage = () => {
               content={
                 <ul>
                   <li>
-                    A Test Driven Development approach was used to build the API, using the Jest and Supertest libraries to test endpoints and methods during development.
+                    A test-driven development approach was used to build the API, using the Jest and Supertest libraries to test endpoints and methods during development.
                   </li>
                   <li>
-                    The API was built using Express with the Model, View, Controller design methodology used to seperate functions which would communicate with the database, and those which process requests and responses.
+                    The API was built using Express with the Model, View, Controller design methodology used to separate functions which would communicate with the database, and those which process requests and responses.
                   </li>
                 </ul>
               }
@@ -60,7 +60,7 @@ const ApiPage = () => {
               href="https://github.com/Thomas-Smith0176/news-api"
               target="_blank"
             >
-              Check out the repo here
+              Check out the repo
             </a>
           </div>
           <div className="hyperlink">
