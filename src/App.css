@@ -148,6 +148,7 @@ h5 {
   grid-area: "linkedin-text";
   text-align: left;
   color: rgb(176, 176, 176);
+  text-decoration: none;
 }
 
 .linkedin-icon {
@@ -160,6 +161,7 @@ h5 {
   grid-area: "github-text";
   text-align: left;
   color: rgb(176, 176, 176);
+  text-decoration: none;
 }
 
 .github-icon {
@@ -172,6 +174,7 @@ h5 {
   grid-area: "email-text";
   text-align: left;
   color: rgb(176, 176, 176);
+  text-decoration: none;
 }
 
 .email-icon {
@@ -184,6 +187,7 @@ h5 {
   grid-area: "phone-text";
   text-align: left;
   color: rgb(176, 176, 176);
+  text-decoration: none;
 }
 
 .phone-icon {
@@ -251,13 +255,14 @@ h5 {
 }
 .repo-link {
   justify-self: left;
+  text-decoration: none;
+  color: rgb(147, 147, 147);
+  font-weight: bold;
+  font-size: 3vh;
 }
 .app-link {
   justify-self: right;
   margin-left: 40px;
-}
-
-a {
   text-decoration: none;
   color: rgb(147, 147, 147);
   font-weight: bold;
