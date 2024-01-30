@@ -103,6 +103,7 @@ h2 {
   min-height: 208px;
   display: flex;
   background-color: #1F1A24;
+  border-radius: 20px 20px 20px 20px;
 }
 
 h3 {
@@ -116,7 +117,8 @@ h5 {
 
 .profile-pic {
   position: relative;
-  height: 100%
+  height: 100%;
+  border-radius: 20px 0 0 20px;
 }
 
 .profile-text {
@@ -352,18 +354,20 @@ a:hover {
     "profile-pic"
     "profile-text"
     ;
-    width: 225px
+    width: 225px;
   }
   .profile-pic {
     grid-area: "profile-pic";
     height: 225px;
     width: 225px;
+    border-radius: 20px 20px 0 0;
   }
   .profile-text {
     grid-area: "profile-text";
     background-color: #1F1A24;
     margin: 0;
     padding: 10px;
+    border-radius: 0 0 20px 20px;
   }
 
   .project-card {
@@ -422,11 +426,40 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-height: 600px) {
+  .contact-info {
+    display: none;
+  }
+  .contact-icons {
+    display: flex;
+    gap: 60px;
+    position: absolute;
+    top: 90%;
+    margin-left: 5vw;
+  }
+  .contact-icon {
+    height: 30px
+  }
+}
+
+@media only screen and (max-width: 560px) {
   .card {
     position: absolute;
-    top: 30%; 
+    top: 40%; 
     left: 50%; 
     transform: translate(-50%, -50%);
+    margin-left: 0px;
+  }
+  .contact-icons {
+    position: absolute;
+    left: 8%
+  }
+  .sidebar {
+    display: none;
+  }
+  .project {
+    display: grid;
+    overflow: auto;
+    grid-template-columns: 1fr;
   }
 }
