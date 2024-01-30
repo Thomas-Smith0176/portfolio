@@ -10,6 +10,7 @@ const Home = () => {
 animate={{ y: 0, opacity: 1 }}
 transition={{duration: 1.3,ease: [0.6, -0.05, 0.01, 0.99]}}>
         <section className="home">
+
         <Header/>
         <ProfileCard/>
         <ContactCard/>

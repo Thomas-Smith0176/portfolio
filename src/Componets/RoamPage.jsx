@@ -16,15 +16,14 @@ const RoamPage = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{duration: 1.3,ease: [0.6, -0.05, 0.01, 0.99]}}>
         <section className="project">
-        <div className="project-header">
+        <div className="project-body">
         <h1>Roam</h1>
         <h2>Discover, Explore, Share</h2>
-        </div>
-        <div className="project-body">
         <text>
         People don’t engage with their local areas as much as they used to. In our cities and towns, there are hundreds of hidden landmarks, buildings and monuments that enrich the cultural canvas of our communities.
 I had the pleasure of working with an amazing team of junior developers on Roam, a unique maps app designed to tackle this problem by implementing game-like features to encourage users to explore and interact with their local area. 
         </text>
+        <div className="hyperlink"><a href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo</a></div>
         
         <div className="accordions">
 
@@ -56,7 +55,7 @@ I had the pleasure of working with an amazing team of junior developers on Roam,
             </ul>
         }/>
         </div>
-        <div className="hyperlink"><a href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo</a></div>
+        
         
         <Carousel className="carousel" showThumbs={false} showStatus={false} width={'100%'}>
             <div>

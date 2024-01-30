@@ -12,14 +12,29 @@ const ApiPage = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{duration: 1.3,ease: [0.6, -0.05, 0.01, 0.99]}}>
         <section className="project">
-        <div className="project-header">
+        <div className="project-body">
         <h1>Express API</h1>
         <h2>Fully developed back-end service</h2>
-        </div>
-        <div className="project-body">
           <text>
           This project involved creating an API which processes requests to a news server containing articles, comments, and user information. This allowed me to become familiar with back-end development libraries and methodologies. 
           </text>
+
+          <div className="hyperlink">
+            <a
+              href="https://github.com/Thomas-Smith0176/news-api"
+              target="_blank"
+              className="repo-link"
+            >
+              Check out the repo
+            </a>
+            <a
+              href="https://toms-news-server.onrender.com/api"
+              target="_blank"
+              className="app-link"
+            >
+              Try the API
+            </a>
+          </div>
 
           <div className="accordions">
             <Accordion
@@ -54,22 +69,6 @@ const ApiPage = () => {
                 </ul>
               }
             />
-          </div>
-          <div className="hyperlink">
-            <a
-              href="https://github.com/Thomas-Smith0176/news-api"
-              target="_blank"
-            >
-              Check out the repo
-            </a>
-          </div>
-          <div className="hyperlink">
-            <a
-              href="https://toms-news-server.onrender.com/api"
-              target="_blank"
-            >
-              Try The API
-            </a>
           </div>
 
           <Carousel

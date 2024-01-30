@@ -4,10 +4,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Accordion from "./Accordion";
 import downloadImg1 from "../assets/download-demo-content/demo-1.jpg";
 import downloadImg2 from "../assets/download-demo-content/demo-2.jpg";
-import downloadImg3 from "../assets/download-demo-content/demo-3.jpg";
-import downloadImg4 from "../assets/download-demo-content/demo-4.jpg";
-import downloadImg6 from "../assets/download-demo-content/demo-6.jpg";
-import downloadImg7 from "../assets/download-demo-content/demo-7.jpg";
+import downloadImg3 from "../assets/download-demo-content/demo-6.jpg";
+import downloadImg4 from "../assets/download-demo-content/demo-7.jpg";
+import downloadImg5 from "../assets/download-demo-content/demo-mobile.png";
 
 const DownloadPage = () => {
   return (
@@ -18,17 +17,32 @@ const DownloadPage = () => {
       transition={{ duration: 1.3, ease: [0.6, -0.05, 0.01, 0.99] }}
     >
       <section className="project">
-        <div className="project-header">
+        <div className="project-body">
           <h1>Download</h1>
           <h2>User driven news</h2>
-        </div>
-        <div className="project-body">
           <text>
             The goal of this project was to create a social media/news site with
             functionality similar to apps such as Reddit, allowing users to vote
             and comment on articles, as well as sorting the content they consume
             based on their interests.
           </text>
+
+          <div className="hyperlink">
+            <a
+              href="https://github.com/Thomas-Smith0176/download-news"
+              target="_blank"
+              className="repo-link"
+            >
+              Check out the repo
+            </a>
+            <a
+              href="https://download-news.netlify.app"
+              target="_blank"
+              className="app-link"
+            >
+              Try Download
+            </a>
+          </div>
 
           <div className="accordions">
             <Accordion
@@ -71,22 +85,6 @@ const DownloadPage = () => {
               }
             />
           </div>
-          <div className="hyperlink">
-            <a
-              href="https://github.com/Thomas-Smith0176/download-news"
-              target="_blank"
-            >
-              Check out the repo
-            </a>
-          </div>
-          <div className="hyperlink">
-            <a
-              href="https://download-news.netlify.app"
-              target="_blank"
-            >
-              Try Download
-            </a>
-          </div>
 
           <Carousel
             className="carousel"
@@ -101,16 +99,13 @@ const DownloadPage = () => {
               <img src={downloadImg2} className="carousel-img-horiz" />
             </div>
             <div>
-              <img src={downloadImg6} className="carousel-img-horiz" />
+              <img src={downloadImg3} className="carousel-img-horiz" />
             </div>
             <div>
-              <img src={downloadImg7} className="carousel-img-horiz" />
+              <img src={downloadImg4} className="carousel-img-horiz" />
             </div>
             <div>
-              <img src={downloadImg3} className="carousel-img" />
-            </div>
-            <div>
-              <img src={downloadImg4} className="carousel-img" />
+              <img src={downloadImg5} className="carousel-img-horiz" />
             </div>
           </Carousel>
         </div>
