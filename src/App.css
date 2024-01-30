@@ -426,7 +426,7 @@ a:hover {
   }
 }
 
-@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 700px) {
   .contact-info {
     display: none;
   }
