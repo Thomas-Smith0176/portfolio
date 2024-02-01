@@ -74,7 +74,7 @@ const DownloadPage = () => {
               content={
                 <ul>
                   <li>
-                    Download's front-end was developed with React with it's
+                    Download's front-end was developed with React with its
                     styling accomplished using a combination of pure CSS and the
                     React Bootstrap library.
                   </li>

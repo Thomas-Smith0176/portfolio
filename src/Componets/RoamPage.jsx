@@ -27,7 +27,9 @@ const RoamPage = () => {
         People don’t engage with their local areas as much as they used to. In our cities and towns, there are hundreds of hidden landmarks, buildings and monuments that enrich the cultural canvas of our communities.
 I had the pleasure of working with an amazing team of junior developers on Roam, a unique maps app designed to tackle this problem by implementing game-like features to encourage users to explore and interact with their local area. 
         </text>
-        <div className="hyperlink"><a className="repo-link" href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo</a></div>
+        <div className="hyperlink-roam">
+            <a className="repo-link" href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo</a>
+            </div>
         
         <div className="accordions">
 
@@ -51,10 +53,10 @@ I had the pleasure of working with an amazing team of junior developers on Roam,
         <Accordion title={'Further Scope'} content={ 
             <ul>
                 <li>User profile page displaying all uploaded photos, comments, and created landmarks.</li>
-                <li>Ability to view and follow other user's profiles from the photos and comments they leave.</li>
+                <li>Ability to view and follow other users' profiles from the photos and comments they leave.</li>
                 <li>Achievements system where users can earn badges for completing milestones like visiting x number of landmarks, walking x distance, posting x comments etc.</li>
                 <li>Voting functionality on landmarks, comments, and photos with the most upvoted photo becoming the landmark cover image.</li>
-                <li>Route planning feature using the google maps API to allow users to follow a route to far away landmarks.</li>
+                <li>Route planning feature using the Google Maps API to allow users to follow a route to far away landmarks.</li>
                 <li>Restrictions to be implemented on how often users can create landmarks to avoid spam, with heavily downvoted landmarks also being removed from the map.</li>
             </ul>
         }/>

@@ -263,6 +263,9 @@ h5 {
   display: grid;
   grid-template-columns: 3fr 3fr;
 }
+.hyperlink-roam {
+  margin-top: 50px
+}
 .repo-link {
   justify-self: left;
   text-decoration: none;
@@ -554,6 +557,9 @@ svg {
   .profile-text-body {
     font-size: 12px;
   }
+  .profile-text {
+    padding: 15px
+  }
   .contact-icons {
     position: relative;
     margin-left: 0;
@@ -575,13 +581,20 @@ svg {
   .close-button {
     padding-bottom: 140px;
   }
+  .project-card-text {
+    padding-left: 10px;
+  }
   .project {
     display: grid;
     overflow: auto;
     grid-template-columns: 1fr;
   }
-  .project-body {
-    margin-right: 5vw;
+  .hyperlink {
+    grid-template-columns: 2fr 3fr;
+  }
+  .app-link {
+    margin-left: 10px;
+    margin-right: 20px;
   }
   .home {
     display: flex;
