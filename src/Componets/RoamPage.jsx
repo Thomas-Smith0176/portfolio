@@ -8,6 +8,7 @@ import roamImg3 from '../assets/roam-demo-content/demo-3.jpg'
 import roamImg4 from '../assets/roam-demo-content/demo-4.jpg'
 import roamImg5 from '../assets/roam-demo-content/demo-5.jpg'
 import roamDemo from '../assets/roam-demo-content/Roam-video-demo.mp4'
+import Sidebar from "./Sidebar";
 
 const RoamPage = () => {
     return (
@@ -17,7 +18,10 @@ const RoamPage = () => {
         transition={{duration: 1.3,ease: [0.6, -0.05, 0.01, 0.99]}}>
         <section className="project">
         <div className="project-body">
+            <div className="header-top">
         <h1>Roam</h1>
+        <Sidebar/>
+            </div>
         <h2>Discover, Explore, Share</h2>
         <text>
         People don’t engage with their local areas as much as they used to. In our cities and towns, there are hundreds of hidden landmarks, buildings and monuments that enrich the cultural canvas of our communities.

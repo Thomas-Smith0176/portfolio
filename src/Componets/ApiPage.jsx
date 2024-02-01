@@ -4,6 +4,7 @@ import Accordion from "./Accordion";
 import apiImg1 from "../assets/api-demo-content/demo-1.jpg";
 import apiImg2 from "../assets/api-demo-content/demo-2.jpg";
 import apiImg3 from "../assets/api-demo-content/demo-3.jpg";
+import Sidebar from "./Sidebar";
 
 const ApiPage = () => {
     return (
@@ -13,7 +14,10 @@ const ApiPage = () => {
         transition={{duration: 1.3,ease: [0.6, -0.05, 0.01, 0.99]}}>
         <section className="project">
         <div className="project-body">
+          <div className="header-top">
         <h1>Express API</h1>
+        <Sidebar/>
+          </div>
         <h2>Fully developed back-end service</h2>
           <text>
           This project involved creating an API which processes requests to a news server containing articles, comments, and user information. This allowed me to become familiar with back-end development libraries and methodologies. 

@@ -7,6 +7,7 @@ import downloadImg2 from "../assets/download-demo-content/demo-2.jpg";
 import downloadImg3 from "../assets/download-demo-content/demo-6.jpg";
 import downloadImg4 from "../assets/download-demo-content/demo-7.jpg";
 import downloadImg5 from "../assets/download-demo-content/demo-mobile.png";
+import Sidebar from "./Sidebar";
 
 const DownloadPage = () => {
   return (
@@ -14,11 +15,14 @@ const DownloadPage = () => {
       className="main__container"
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 1.3, ease: [0.6, -0.05, 0.01, 0.99] }}
+      transition={{ duration: 2.0, ease: [0.6, -0.05, 0.01, 0.99] }}
     >
       <section className="project">
         <div className="project-body">
+          <div className="header-top">
           <h1>Download</h1>
+      <Sidebar/>
+          </div>
           <h2>User driven news</h2>
           <text>
             The goal of this project was to create a social media/news site with
