@@ -50,6 +50,7 @@ h4 {
   color: rgb(181, 181, 181);
   font-size: 4vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 20px;
 }
 
 .bg-img {
@@ -282,6 +283,9 @@ a:hover {
   color: rgb(220, 220, 220);
 }
 
+li {
+  padding-bottom: 10px;
+}
 
 .apiPageLink {
   font-size: 2vh;
@@ -331,6 +335,8 @@ a:hover {
 .carousel {
   margin-top: 50px;
   padding: 10px;
+}
+.carousel.carousel-slider {
   background-color: rgba(0, 0, 0, 0.25);
 }
 .carousel-img {
@@ -377,17 +383,19 @@ svg {
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 1fr;
   align-items: center;
+  text-align: center;
 }
 .nav-menu-title {
   grid-column-start: 2;
   align-self: center;
 }
 .close-button {
-  grid-column-start: 1;
+  grid-column-start: 3;
   font-size: 2rem;
   background: none;
   color: rgb(181, 181, 181);
   padding-top: 10px;
+  align-self: center;
 }
 
 @media only screen and (max-width: 1400px){
@@ -423,6 +431,8 @@ svg {
   .home-icon-column {
     display: grid;
     margin-bottom: 30px;
+    justify-self: center;
+    align-self: center;
   }
 }
 
@@ -556,6 +566,15 @@ svg {
     display: grid;
     color: white
   }
+  .home-icon-column {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 140px;
+    padding-left: 10px
+  }
+  .close-button {
+    padding-bottom: 140px;
+  }
   .project {
     display: grid;
     overflow: auto;
@@ -601,9 +620,11 @@ svg {
   }
   .carousel-root.carousel {
     max-width: 80vw;
+    padding-bottom: 50px;
   }
   .carousel.carousel-slider {
     max-width: 80vw;
+    padding-bottom: 50px;
   }
   .carousel-img {
     width: 80vw;

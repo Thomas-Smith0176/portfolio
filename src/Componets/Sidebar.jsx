@@ -48,12 +48,15 @@ const Sidebar = () => {
       </div>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <div className="nav-menu-header">
-            <Link to="#" className="close-button">
-              <IoCloseOutline onClick={showSidebar} />
-            </Link>
+          <Link to={'/'}>
+        <img src={homeIcon} className="home-icon-column"/>
+      </Link>
           <div className="nav-menu-title">
             <h4>Personal Projects</h4>
           </div>
+            <Link to="#" className="close-button">
+              <IoCloseOutline onClick={showSidebar} />
+            </Link>
         </div>
         <div className="sidebar-projects">
       <Link to={'/projects/roam'} className="link">
@@ -64,9 +67,6 @@ const Sidebar = () => {
       </Link>
       <Link to={'/projects/api'} className="link">
         <ProjectCard project={api}/>
-      </Link>
-      <Link to={'/'}>
-        <img src={homeIcon} className="home-icon-column"/>
       </Link>
       </div>
       </nav>

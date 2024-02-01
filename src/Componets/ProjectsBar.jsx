@@ -41,6 +41,9 @@ const ProjectsBar = () => {
       <h4>Personal Projects</h4>
       </div>
       <div className="sidebar-projects">
+      <Link to={'/'}>
+        <img src={homeIcon} className="home-icon-column"/>
+      </Link>
       <Link to={'/projects/roam'} className="link">
         <ProjectCard project={roam}/>
       </Link>
@@ -49,9 +52,6 @@ const ProjectsBar = () => {
       </Link>
       <Link to={'/projects/api'} className="link">
         <ProjectCard project={api}/>
-      </Link>
-      <Link to={'/'}>
-        <img src={homeIcon} className="home-icon-column"/>
       </Link>
       </div>
     </div>
