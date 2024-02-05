@@ -23,10 +23,12 @@ const RoamPage = () => {
         <Sidebar/>
             </div>
         <h2>Discover, Explore, Share</h2>
+        <div className="project-text">
         <text>
         People don’t engage with their local areas as much as they used to. In our cities and towns, there are hundreds of hidden landmarks, buildings and monuments that enrich the cultural canvas of our communities.
 I had the pleasure of working with an amazing team of junior developers on Roam, a unique maps app designed to tackle this problem by implementing game-like features to encourage users to explore and interact with their local area. 
         </text>
+        </div>
         <div className="hyperlink-roam">
             <a className="repo-link" href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo</a>
             </div>

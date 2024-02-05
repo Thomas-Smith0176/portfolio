@@ -24,12 +24,14 @@ const DownloadPage = () => {
       <Sidebar/>
           </div>
           <h2>User driven news</h2>
+          <div className="project-text">
           <text>
             The goal of this project was to create a social media/news site with
             functionality similar to apps such as Reddit, allowing users to vote
             and comment on articles, as well as sorting the content they consume
             based on their interests.
           </text>
+          </div>
 
           <div className="hyperlink">
             <a

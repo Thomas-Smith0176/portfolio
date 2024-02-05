@@ -226,7 +226,7 @@ h5 {
 .project-card-pic {
   position: relative;
   height: 100%;
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 0px 20px 20px 0px;
 }
 
 .project-card-text {
@@ -479,7 +479,7 @@ svg {
     "project-pic"
     "project-text";
     width: 25vw;
-    height: 300px;
+    height: 25vw;
     margin-left: 0;
     margin-right: 0;
     border-radius: 20px 20px 20px 20px;
@@ -488,7 +488,7 @@ svg {
     grid-area: "project-pic";
     width: 25vw;
     height: 25vw;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 0px 0px 20px 20px;
   }
   .project-card-text {
     grid-area: "project-text";
@@ -497,7 +497,7 @@ svg {
     display: none;
   }
   .link {
-    height: 300px;
+    height: 32vw;
     margin-bottom: 20px;
   }
 
@@ -589,6 +589,9 @@ svg {
     overflow: auto;
     grid-template-columns: 1fr;
   }
+  .project-text{
+    margin-right: 20px;
+  }
   .hyperlink {
     grid-template-columns: 2fr 3fr;
   }
@@ -598,11 +601,14 @@ svg {
   }
   .home {
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
     align-items: left;
     justify-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     row-gap: 5vh;
+    overflow-y: auto;
+    padding-bottom: 50px;
   }
   .project-card {
     display: grid;
@@ -619,7 +625,7 @@ svg {
     grid-area: "project-pic";
     width: 50vw;
     height: 50vw;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 0px 0px 20px 20px;
   }
   .project-card-text {
     grid-area: "project-text";
@@ -645,6 +651,17 @@ svg {
   .carousel-img-horiz {
     max-width: 80vh;
   }
+  .profile-text-full {
+    display: none;
+  }
+  .profile-text-cut {
+    margin-top: 8%;
+    display: block;
+    font-size: 11px;
+  }
+  .profile-text-cut {
+    font-size: 10px;
+  }
 }
 
 @media only screen and (max-height: 730px) {
@@ -656,14 +673,14 @@ svg {
     display: block;
     font-size: 11px;
   }
+  .profile-text-cut {
+    font-size: 10px;
+  }
   .profile-header {
     display: none;
   }
   .home {
     row-gap: 3vh
-  }
-  .profile-text-cut {
-    font-size: 10px;
   }
 }
 

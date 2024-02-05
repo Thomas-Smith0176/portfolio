@@ -19,9 +19,11 @@ const ApiPage = () => {
         <Sidebar/>
           </div>
         <h2>Fully developed back-end service</h2>
+        <div className="project-text">
           <text>
           This project involved creating an API which processes requests to a news server containing articles, comments, and user information. This allowed me to become familiar with back-end development libraries and methodologies. 
           </text>
+        </div>
 
           <div className="hyperlink">
             <a

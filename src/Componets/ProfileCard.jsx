@@ -11,14 +11,13 @@ const ProfileCard = () => {
                 My background in Architecture saw me balance creative and technical thinking, developing a 
                 love of problem solving that lead me to programming. Completing Northcoders' Software Development 
                 bootcamp, I gained experience working with industry standard 
-                coding practices and turned an interest in programming into a love of software development.
+                practices and technologies, and turned an interest in coding into a love of software development.
             </text>
             <text className='profile-text-cut'>
-                I am a motivated Junior Software Developer with skills in design and technology. 
-                My background in Architecture saw me balance creative and technical thinking, developing a 
-                love of problem solving that lead me to programming. Completing Northcoders' Software Development 
-                bootcamp, I gained experience working with industry standard 
-                coding practices and turned an interest in programming into a love of software development.
+                I am a Junior Software Developer with skills in design and technology. 
+                Through my background in Architecture, I developed a love of problem solving that lead me to programming.
+                Completing Northcoders' Software Development bootcamp, I worked with industry standard 
+                practices and technologies, and turned an interest in coding into a love of software development.
             </text>
         </div>
         </div>
