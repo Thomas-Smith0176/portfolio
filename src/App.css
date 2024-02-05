@@ -572,6 +572,9 @@ svg {
     display: grid;
     color: white
   }
+  .sidebar-projects {
+    padding-bottom: 50px;
+  }
   .home-icon-column {
     margin: 0px;
     padding: 0px;
