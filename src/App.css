@@ -66,15 +66,12 @@ h4 {
 
 .header {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  /* display: grid;
-  grid-template-rows: 2fr 2fr 1fr 2fr; */
   margin-left: 5vw;
   padding-bottom: 2%;
   padding-top: 2%;
 }
 
 h1 {
-  /* grid-row-start: 2; */
   font-size: 6vh;
   text-align: left;
   margin-bottom: 0px;
@@ -82,7 +79,6 @@ h1 {
 }
 
 h2 {
-  /* grid-row-start: 3; */
   text-align: left;
   color: rgb(147, 147, 147);
   font-size: 4vh;
@@ -211,7 +207,6 @@ h5 {
   margin-right: 2vw;
   margin-bottom: 2vw;
   height: 15vw;
-  /* min-height: 208px; */
   display: flex;
   background-color: #1F1A24;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
@@ -252,7 +247,6 @@ h5 {
 
 .project-body {
   grid-column-start: 1;
-  /* grid-row-start: 2; */
   margin-left: 5vw;
   color: rgb(147, 147, 147);
   text-align: left;
@@ -608,7 +602,6 @@ svg {
     flex-direction: column;
     align-items: left;
     justify-items: center;
-    /* justify-content: space-around; */
     row-gap: 5vh;
     overflow-y: auto;
     padding-bottom: 50px;
