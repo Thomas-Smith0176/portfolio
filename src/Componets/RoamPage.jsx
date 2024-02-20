@@ -30,7 +30,7 @@ I had the pleasure of working with an amazing team of junior developers on Roam,
         </text>
         </div>
         <div className="hyperlink-roam">
-            <a className="repo-link" href="https://github.com/Thomas-Smith0176/roam-app" target="_blank">Check out the repo</a>
+            <a className="repo-link" href="https://github.com/bex9119/roam-app" target="_blank">Check out the repo</a>
             </div>
         
         <div className="accordions">
