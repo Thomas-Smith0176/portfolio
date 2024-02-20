@@ -1,4 +1,5 @@
 import './App.css'
+import "./fonts/LilGrotesk-Bold.otf"
 import Home from './Componets/Home'
 import { Routes, Route, useLocation } from 'react-router-dom';
 import ProjectsBar from './Componets/ProjectsBar';
@@ -23,7 +24,7 @@ function App() {
       <Route path="/projects/api" element={<ApiPage/>}/>
       </Routes>
       </AnimatePresence>
-      <img src={background} className='bg-img'/>
+      {/* <img src={background} className='bg-img'/> */}
     </main>
     </>
   )
