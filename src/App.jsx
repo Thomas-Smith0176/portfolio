@@ -24,7 +24,6 @@ function App() {
       <Route path="/projects/api" element={<ApiPage/>}/>
       </Routes>
       </AnimatePresence>
-      {/* <img src={background} className='bg-img'/> */}
     </main>
     </>
   )
